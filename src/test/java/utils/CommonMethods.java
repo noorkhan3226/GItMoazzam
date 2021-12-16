@@ -21,7 +21,7 @@ public class CommonMethods {
 
     public static WebDriver driver;
 
-
+/*
     @BeforeMethod(alwaysRun = true)
     public void openBrowser(){
         ConfigReader.readProperties(Constants.CONFIGURATION_FILEPATH);
@@ -42,61 +42,62 @@ public class CommonMethods {
         driver.get(ConfigReader.getPropertyValue("url"));
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Constants.IMPLICIT_WAIT, TimeUnit.SECONDS);
-    }
+    }*/
 
-    public static void sendText(WebElement element, String textToSend){
+    public static void sendText(WebElement element, String textToSend) {
         element.clear();
         element.sendKeys(textToSend);
     }
 
-    public static WebDriverWait getWait(){
+    public static WebDriverWait getWait() {
         WebDriverWait wait = new WebDriverWait(driver, Constants.EXPLICIT_WAIT);
         return wait;
     }
 
-    public static void waitForClickability(WebElement element){
+    public static void waitForClickability(WebElement element) {
         getWait().until(ExpectedConditions.elementToBeClickable(element));
     }
 
-    public static void click(WebElement element){
+    public static void click(WebElement element) {
         waitForClickability(element);
         element.click();
     }
 
-    public static JavascriptExecutor getJSExecutor(){
+    public static JavascriptExecutor getJSExecutor() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         return js;
     }
 
-    public static void jsClick(WebElement element){
+    public static void jsClick(WebElement element) {
         getJSExecutor().executeScript("arguments[0].click();", element);
     }
 
     //class 4 methods
     //to take screenshot
     //break till 21.21
-    public static void takeScreenshot(String fileName){
+    public static void takeScreenshot(String fileName) {
         TakesScreenshot ts = (TakesScreenshot) driver;
         File sourceFile = ts.getScreenshotAs(OutputType.FILE);
 
-        try{
+        try {
             FileUtils.copyFile(sourceFile, new File(
                     Constants.SCREENSHOT_FILEPATH + fileName + " " + getTimeStamp("yyyy-MM-dd-HH-mm-ss") + ".png"));
-        }catch (IOException e){
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    public static String getTimeStamp(String pattern){
+    public static String getTimeStamp(String pattern) {
         Date date = new Date();
         //pattern YYYY-MM-DD-HH-MM-SS-MS
         //to format the date according to our choice we have a function
         SimpleDateFormat sdf = new SimpleDateFormat(pattern);
         return sdf.format(date);
     }
+}
 
-    @AfterMethod(alwaysRun = true)
+ /*   @AfterMethod(alwaysRun = true)
     public void tearDown(){
         driver.quit();
     }
-}
+}*/
