@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="7" passed="4" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="3" total="7" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-23T23:08:48 IST" name="All Test Suite" finished-at="2021-10-23T23:09:10 IST" duration-ms="22060">
+  <suite name="All Test Suite" duration-ms="15880" started-at="2021-12-16T16:57:29 EST" finished-at="2021-12-16T16:57:45 EST">
     <groups>
       <group name="smoke">
-        <method signature="LoginTest.invalidLoginErrorMessageValidation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@79ad8b2f]" name="invalidLoginErrorMessageValidation" class="testcases.LoginTest"/>
+        <method signature="LoginTest.invalidLoginErrorMessageValidation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@7fac631b]" name="invalidLoginErrorMessageValidation" class="testcases.LoginTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2021-10-23T23:08:48 IST" name="C:/Users/sohel.abbasi/workspace/TestNgFrameworkB10" finished-at="2021-10-23T23:09:10 IST" duration-ms="22060">
+    <test name="C:/Users/sohel.abbasi/workspace/TestNgFrameworkB10" duration-ms="15880" started-at="2021-12-16T16:57:29 EST" finished-at="2021-12-16T16:57:45 EST">
       <class name="testcases.LoginTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testcases.LoginTest@79ad8b2f]" started-at="2021-10-23T23:08:48 IST" name="openBrowser" finished-at="2021-10-23T23:08:53 IST" duration-ms="4455" status="PASS">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testcases.LoginTest@7fac631b]" name="openBrowser" is-config="true" duration-ms="4190" started-at="2021-12-16T16:57:29 EST" finished-at="2021-12-16T16:57:33 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="invalidLoginErrorMessageValidation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@79ad8b2f]" started-at="2021-10-23T23:08:53 IST" name="invalidLoginErrorMessageValidation" data-provider="invalidData" finished-at="2021-10-23T23:08:54 IST" duration-ms="1208" status="PASS">
+        <test-method status="PASS" signature="invalidLoginErrorMessageValidation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@7fac631b]" name="invalidLoginErrorMessageValidation" duration-ms="603" started-at="2021-12-16T16:57:33 EST" data-provider="invalidData" finished-at="2021-12-16T16:57:33 EST">
           <params>
             <param index="0">
               <value>
@@ -35,15 +35,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginErrorMessageValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@79ad8b2f]" started-at="2021-10-23T23:08:54 IST" name="tearDown" finished-at="2021-10-23T23:08:55 IST" duration-ms="288" status="PASS">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.LoginTest@7fac631b]" name="tearDown" is-config="true" duration-ms="656" started-at="2021-12-16T16:57:34 EST" finished-at="2021-12-16T16:57:34 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testcases.LoginTest@79ad8b2f]" started-at="2021-10-23T23:08:55 IST" name="openBrowser" finished-at="2021-10-23T23:08:59 IST" duration-ms="3791" status="PASS">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testcases.LoginTest@7fac631b]" name="openBrowser" is-config="true" duration-ms="2164" started-at="2021-12-16T16:57:34 EST" finished-at="2021-12-16T16:57:36 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="invalidLoginErrorMessageValidation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@79ad8b2f]" started-at="2021-10-23T23:08:59 IST" name="invalidLoginErrorMessageValidation" data-provider="invalidData" finished-at="2021-10-23T23:09:00 IST" duration-ms="1208" status="PASS">
+        <test-method status="PASS" signature="invalidLoginErrorMessageValidation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@7fac631b]" name="invalidLoginErrorMessageValidation" duration-ms="599" started-at="2021-12-16T16:57:36 EST" data-provider="invalidData" finished-at="2021-12-16T16:57:37 EST">
           <params>
             <param index="0">
               <value>
@@ -64,15 +64,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginErrorMessageValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@79ad8b2f]" started-at="2021-10-23T23:09:00 IST" name="tearDown" finished-at="2021-10-23T23:09:00 IST" duration-ms="205" status="PASS">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.LoginTest@7fac631b]" name="tearDown" is-config="true" duration-ms="625" started-at="2021-12-16T16:57:37 EST" finished-at="2021-12-16T16:57:38 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testcases.LoginTest@79ad8b2f]" started-at="2021-10-23T23:09:00 IST" name="openBrowser" finished-at="2021-10-23T23:09:04 IST" duration-ms="3615" status="PASS">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testcases.LoginTest@7fac631b]" name="openBrowser" is-config="true" duration-ms="2127" started-at="2021-12-16T16:57:38 EST" finished-at="2021-12-16T16:57:40 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="invalidLoginErrorMessageValidation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@79ad8b2f]" started-at="2021-10-23T23:09:04 IST" name="invalidLoginErrorMessageValidation" data-provider="invalidData" finished-at="2021-10-23T23:09:04 IST" duration-ms="527" status="PASS">
+        <test-method status="PASS" signature="invalidLoginErrorMessageValidation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@7fac631b]" name="invalidLoginErrorMessageValidation" duration-ms="375" started-at="2021-12-16T16:57:40 EST" data-provider="invalidData" finished-at="2021-12-16T16:57:40 EST">
           <params>
             <param index="0">
               <value>
@@ -93,15 +93,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginErrorMessageValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@79ad8b2f]" started-at="2021-10-23T23:09:05 IST" name="tearDown" finished-at="2021-10-23T23:09:05 IST" duration-ms="201" status="PASS">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.LoginTest@7fac631b]" name="tearDown" is-config="true" duration-ms="610" started-at="2021-12-16T16:57:40 EST" finished-at="2021-12-16T16:57:41 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testcases.LoginTest@79ad8b2f]" started-at="2021-10-23T23:09:05 IST" name="openBrowser" finished-at="2021-10-23T23:09:10 IST" duration-ms="4664" status="PASS">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testcases.LoginTest@7fac631b]" name="openBrowser" is-config="true" duration-ms="2343" started-at="2021-12-16T16:57:41 EST" finished-at="2021-12-16T16:57:43 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="invalidLoginErrorMessageValidation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@79ad8b2f]" started-at="2021-10-23T23:09:10 IST" name="invalidLoginErrorMessageValidation" data-provider="invalidData" finished-at="2021-10-23T23:09:10 IST" duration-ms="473" status="PASS">
+        <test-method status="PASS" signature="invalidLoginErrorMessageValidation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@7fac631b]" name="invalidLoginErrorMessageValidation" duration-ms="369" started-at="2021-12-16T16:57:43 EST" data-provider="invalidData" finished-at="2021-12-16T16:57:44 EST">
           <params>
             <param index="0">
               <value>
@@ -122,7 +122,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginErrorMessageValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@79ad8b2f]" started-at="2021-10-23T23:09:10 IST" name="tearDown" finished-at="2021-10-23T23:09:10 IST" duration-ms="223" status="PASS">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.LoginTest@7fac631b]" name="tearDown" is-config="true" duration-ms="610" started-at="2021-12-16T16:57:44 EST" finished-at="2021-12-16T16:57:45 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
